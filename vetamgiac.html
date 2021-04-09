@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ve tam giac</title>
+</head>
+<body>
+    <script>
+        for (x=1; x<=5; x++){
+            document.write(`<br>*`)
+            for (y = 1; y<x; y++)
+            document.write("*")
+        }
+
+        document.write("<hr>")
+
+        for (x=1; x<=5;x++){
+            document.write(`<br>*`)
+            for (y=0; y< 5-x ; y++){
+                document.write("*")
+            }
+        }
+
+        document.write("<hr>")
+
+        for (x=1; x<=5;x++){
+            document.write(`<br>`)
+            for(y=1; y<=5; y++)
+            if (y<=5-x){document.write("x")}
+            else {document.write("*")}
+        }
+
+        document.write("<hr>")
+
+        for (x=1; x<=5; x++){
+            document.write(`<br>`)
+        
+            for (y=1; y<=5;y++){
+                if (y<x){
+                    document.write("x")
+                }
+                else {document.write("*")}
+            }}
+    </script>
+    
+</body>
+</html>
