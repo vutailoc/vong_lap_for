@@ -8,41 +8,46 @@
 </head>
 <body>
     <script>
-        for (x=1; x<=5; x++){
-            document.write(`<br>*`)
-            for (y = 1; y<x; y++)
-            document.write("*")
+        for (x=0; x<=5; x++){
+            
+            for (y = 1; y<=x; y++){
+            document.write("*")}
+            document.write(`<br>`)
         }
 
         document.write("<hr>")
 
-        for (x=1; x<=5;x++){
-            document.write(`<br>*`)
+        for (x=0; x<=5;x++){
+            
             for (y=0; y< 5-x ; y++){
                 document.write("*")
             }
+            document.write(`<br>`)
         }
 
         document.write("<hr>")
 
-        for (x=1; x<=5;x++){
-            document.write(`<br>`)
+        for (x=0; x<=5;x++){
+           
             for(y=1; y<=5; y++)
             if (y<=5-x){document.write("x")}
             else {document.write("*")}
+            document.write(`<br>`)
         }
 
         document.write("<hr>")
 
-        for (x=1; x<=5; x++){
-            document.write(`<br>`)
+        for (x=0; x<=5; x++){
+           
         
             for (y=1; y<=5;y++){
                 if (y<x){
                     document.write("x")
                 }
                 else {document.write("*")}
-            }}
+                
+            }
+            document.write(`<br>`)}
     </script>
     
 </body>
